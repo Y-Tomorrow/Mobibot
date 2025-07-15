@@ -1,0 +1,561 @@
+[0.005s] Invoking command in '/home/yy/factory_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yy/factory_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/yy/factory_ws/install/wpr_simulation2
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.217s] -- Detecting C compiler ABI info - done
+[0.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.221s] -- Detecting C compile features
+[0.221s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.418s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.419s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.451s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.460s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.505s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.517s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.545s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.547s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.610s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.626s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.658s] -- Looking for pthread.h
+[0.700s] -- Looking for pthread.h - found
+[0.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.748s] -- Found Threads: TRUE  
+[0.778s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.779s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.803s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.815s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.824s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.824s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.824s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.869s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.885s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.892s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[0.905s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.906s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.928s] -- Checking for module 'eigen3'
+[0.936s] --   Found eigen3, version 3.4.0
+[0.960s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.960s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.986s] -- Checking for module 'flann'
+[0.995s] --   Found flann, version 1.9.1
+[1.022s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.022s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.630s] -- Checking for module 'libusb-1.0'
+[1.639s] --   Found libusb-1.0, version 1.0.25
+[1.663s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.664s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.702s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.784s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.789s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.792s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.873s] -- Found Qhull version 8.0.2
+[1.959s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.037s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.038s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.038s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.039s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.040s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.040s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.040s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.040s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.041s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.041s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.042s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.042s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.043s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.043s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.044s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.044s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.045s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.045s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.046s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.046s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.047s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.047s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.047s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.047s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.048s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.053s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.060s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.072s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.218s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.498s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.499s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.516s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.516s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.516s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.516s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.527s] -- Found PythonExtra: .so  
+[2.577s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.599s] -- Configured cppcheck include dirs: /home/yy/factory_ws/src/wpr_simulation2/include
+[2.599s] -- Configured cppcheck exclude dirs and/or files: 
+[2.600s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.601s] -- Added test 'lint_cmake' to check CMake code style
+[2.602s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.605s] -- Added test 'uncrustify' to check C / C++ code style
+[2.605s] -- Configured uncrustify additional arguments: 
+[2.606s] -- Added test 'xmllint' to check XML markup files
+[2.607s] -- Configuring done
+[2.743s] -- Generating done
+[2.778s] -- Build files have been written to: /home/yy/factory_ws/build/wpr_simulation2
+[2.792s] Invoked command in '/home/yy/factory_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yy/factory_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/yy/factory_ws/install/wpr_simulation2
+[2.793s] Invoking command in '/home/yy/factory_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yy/factory_ws/build/wpr_simulation2 -- -j20 -l20
+[2.827s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.835s] [  2%] [32mBuilding CXX object CMakeFiles/wpb_home_mani_sim.dir/src/wpb_home_mani_sim.cpp.o[0m
+[2.835s] [  7%] [32mBuilding CXX object CMakeFiles/8_waypoint_navigation.dir/demo_cpp/8_waypoint_navigation.cpp.o[0m
+[2.835s] [  7%] [32mBuilding CXX object CMakeFiles/keyboard_vel_cmd.dir/src/keyboard_vel_cmd.cpp.o[0m
+[2.835s] [  8%] [32mBuilding CXX object CMakeFiles/3_subscriber_node.dir/demo_cpp/3_subscriber_node.cpp.o[0m
+[2.835s] [  8%] [32mBuilding CXX object CMakeFiles/4_velocity_command.dir/demo_cpp/4_velocity_command.cpp.o[0m
+[2.835s] [  7%] [32mBuilding CXX object CMakeFiles/6_imu_data.dir/demo_cpp/6_imu_data.cpp.o[0m
+[2.836s] [ 11%] [32mBuilding CXX object CMakeFiles/3_publisher_node.dir/demo_cpp/3_publisher_node.cpp.o[0m
+[2.836s] [ 11%] [32mBuilding CXX object CMakeFiles/9_cv_hsv.dir/demo_cpp/9_cv_hsv.cpp.o[0m
+[2.836s] [ 12%] [32mBuilding CXX object CMakeFiles/ball_random_move.dir/src/ball_random_move.cpp.o[0m
+[2.836s] [ 13%] [32mBuilding CXX object CMakeFiles/3_my_node.dir/demo_cpp/3_my_node.cpp.o[0m
+[2.838s] [ 18%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.838s] [ 18%] [32mBuilding CXX object CMakeFiles/9_cv_follow.dir/demo_cpp/9_cv_follow.cpp.o[0m
+[2.838s] [ 18%] [32mBuilding CXX object CMakeFiles/5_lidar_behavior.dir/demo_cpp/5_lidar_behavior.cpp.o[0m
+[2.838s] [ 20%] [32mBuilding CXX object CMakeFiles/9_cv_face_detect.dir/demo_cpp/9_cv_face_detect.cpp.o[0m
+[2.838s] [ 18%] [32mBuilding CXX object CMakeFiles/5_lidar_data.dir/demo_cpp/5_lidar_data.cpp.o[0m
+[2.839s] [ 21%] [32mBuilding CXX object CMakeFiles/10_pc_data.dir/demo_cpp/10_pc_data.cpp.o[0m
+[2.842s] [ 24%] [32mBuilding CXX object CMakeFiles/9_cv_image.dir/demo_cpp/9_cv_image.cpp.o[0m
+[2.842s] [ 24%] [32mBuilding CXX object CMakeFiles/6_imu_behavior.dir/demo_cpp/6_imu_behavior.cpp.o[0m
+[2.845s] [ 24%] Built target ament_cmake_python_copy_wpr_simulation2
+[2.863s] [ 25%] [32mBuilding CXX object CMakeFiles/10_pc_objects.dir/demo_cpp/10_pc_objects.cpp.o[0m
+[3.161s] [ 26%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_c.dir/rosidl_generator_c/wpr_simulation2/msg/detail/object__functions.c.o[0m
+[3.174s] [ 26%] Built target wpr_simulation2__cpp
+[3.204s] [ 27%] [32mBuilding CXX object CMakeFiles/11_mani_ctrl.dir/demo_cpp/11_mani_ctrl.cpp.o[0m
+[3.213s] [ 29%] [32m[1mLinking C shared library libwpr_simulation2__rosidl_generator_c.so[0m
+[3.256s] [ 29%] Built target wpr_simulation2__rosidl_generator_c
+[3.278s] [ 30%] [32mBuilding CXX object CMakeFiles/12_fetch.dir/demo_cpp/12_fetch.cpp.o[0m
+[5.581s] [ 31%] [32m[1mLinking CXX executable 3_my_node[0m
+[5.718s] [ 31%] Built target 3_my_node
+[5.750s] [ 32%] [32mBuilding CXX object CMakeFiles/demo_nav2_client.dir/demo_cpp/demo_nav2_client.cpp.o[0m
+[7.562s] [ 34%] [32m[1mLinking CXX executable ball_random_move[0m
+[7.562s] [ 35%] [32m[1mLinking CXX executable 3_publisher_node[0m
+[7.563s] [ 36%] [32m[1mLinking CXX executable 4_velocity_command[0m
+[7.657s] [ 37%] [32m[1mLinking CXX executable keyboard_vel_cmd[0m
+[7.837s] [ 37%] Built target 3_publisher_node
+[7.837s] [ 37%] Built target 4_velocity_command
+[7.847s] [ 37%] Built target ball_random_move
+[7.851s] [ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.853s] [ 40%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.864s] [ 41%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.973s] [ 41%] Built target keyboard_vel_cmd
+[8.004s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.161s] [ 44%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wpr_simulation2/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[8.177s] [ 45%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wpr_simulation2/msg/object__type_support.cpp.o[0m
+[8.261s] [ 46%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wpr_simulation2/msg/detail/object__type_support_c.cpp.o[0m
+[8.281s] [ 48%] [32m[1mLinking CXX executable 11_mani_ctrl[0m
+[8.343s] [ 49%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wpr_simulation2/msg/detail/object__type_support.c.o[0m
+[8.431s] [ 50%] [32m[1mLinking C shared library libwpr_simulation2__rosidl_typesupport_introspection_c.so[0m
+[8.436s] [ 51%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_cpp.so[0m
+[8.473s] [ 51%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[8.483s] [ 51%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[8.491s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.497s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.515s] [ 54%] Built target 11_mani_ctrl
+[8.638s] [ 55%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.680s] [ 56%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_c.so[0m
+[8.726s] [ 58%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_c.dir/rosidl_typesupport_c/wpr_simulation2/msg/object__type_support.cpp.o[0m
+[8.739s] [ 58%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[8.752s] [ 59%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wpr_simulation2/msg/detail/object__type_support.cpp.o[0m
+[8.756s] [ 60%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_c.so[0m
+[8.770s] [ 60%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[8.784s] [ 62%] [32mBuilding CXX object CMakeFiles/objects_publisher.dir/src/objects_publisher.cpp.o[0m
+[8.793s] [ 63%] [32mBuilding CXX object CMakeFiles/grab_object_sim.dir/src/grab_object_sim.cpp.o[0m
+[8.794s] [ 63%] Built target wpr_simulation2__rosidl_typesupport_c
+[8.817s] [ 64%] [32mBuilding CXX object CMakeFiles/11_grab_object.dir/demo_cpp/11_grab_object.cpp.o[0m
+[9.120s] running egg_info
+[9.121s] creating wpr_simulation2.egg-info
+[9.122s] writing wpr_simulation2.egg-info/PKG-INFO
+[9.122s] writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+[9.122s] writing top-level names to wpr_simulation2.egg-info/top_level.txt
+[9.122s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[9.126s] reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[9.126s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[9.137s] [ 65%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_introspection_cpp.so[0m
+[9.164s] [ 65%] Built target ament_cmake_python_build_wpr_simulation2_egg
+[9.236s] [ 65%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[9.260s] [ 65%] Built target wpr_simulation2
+[9.284s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.578s] [ 67%] Built target wpr_simulation2__py
+[9.606s] [ 68%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_py.dir/rosidl_generator_py/wpr_simulation2/msg/_object_s.c.o[0m
+[9.690s] [ 69%] [32m[1mLinking CXX executable demo_nav2_client[0m
+[9.861s] [ 70%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so[0m
+[9.893s] [ 70%] Built target demo_nav2_client
+[9.902s] [ 70%] Built target wpr_simulation2__rosidl_generator_py
+[9.927s] [ 73%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c.o[0m
+[9.927s] [ 73%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.933s] [ 74%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.015s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.026s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.029s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.054s] [ 78%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[10.066s] [ 78%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[10.077s] [ 78%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[10.519s] [ 79%] [32m[1mLinking CXX executable 3_subscriber_node[0m
+[10.836s] [ 81%] [32m[1mLinking CXX executable 5_lidar_behavior[0m
+[10.901s] [ 81%] Built target 3_subscriber_node
+[11.057s] [ 82%] [32m[1mLinking CXX executable 5_lidar_data[0m
+[11.180s] [ 83%] [32m[1mLinking CXX executable 6_imu_data[0m
+[11.274s] [ 83%] Built target 5_lidar_behavior
+[11.320s] [ 84%] [32m[1mLinking CXX executable 9_cv_hsv[0m
+[11.431s] [ 86%] [32m[1mLinking CXX executable 9_cv_follow[0m
+[11.438s] [ 86%] Built target 5_lidar_data
+[11.490s] [ 87%] [32m[1mLinking CXX executable wpb_home_mani_sim[0m
+[11.607s] [ 87%] Built target 6_imu_data
+[11.651s] [ 88%] [32m[1mLinking CXX executable 12_fetch[0m
+[11.658s] [ 89%] [32m[1mLinking CXX executable 9_cv_image[0m
+[11.674s] [ 91%] [32m[1mLinking CXX executable 8_waypoint_navigation[0m
+[12.006s] [ 92%] [32m[1mLinking CXX executable 6_imu_behavior[0m
+[12.009s] [ 92%] Built target wpb_home_mani_sim
+[12.024s] [ 92%] Built target 8_waypoint_navigation
+[12.045s] [ 92%] Built target 12_fetch
+[12.235s] [ 92%] Built target 9_cv_follow
+[12.282s] [ 92%] Built target 9_cv_hsv
+[12.284s] [ 92%] Built target 9_cv_image
+[12.448s] [ 92%] Built target 6_imu_behavior
+[13.391s] [ 93%] [32m[1mLinking CXX executable 9_cv_face_detect[0m
+[14.014s] [ 93%] Built target 9_cv_face_detect
+[14.063s] [ 94%] [32m[1mLinking CXX executable 10_pc_data[0m
+[14.554s] [ 96%] [32m[1mLinking CXX executable 10_pc_objects[0m
+[14.787s] [ 96%] Built target 10_pc_data
+[15.225s] [ 97%] [32m[1mLinking CXX executable 11_grab_object[0m
+[15.450s] [ 97%] Built target 10_pc_objects
+[15.751s] [ 97%] Built target 11_grab_object
+[16.724s] [ 98%] [32m[1mLinking CXX executable grab_object_sim[0m
+[17.232s] [ 98%] Built target grab_object_sim
+[19.256s] [100%] [32m[1mLinking CXX executable objects_publisher[0m
+[20.156s] [100%] Built target objects_publisher
+[20.163s] Invoked command in '/home/yy/factory_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yy/factory_ws/build/wpr_simulation2 -- -j20 -l20
+[20.170s] Invoking command in '/home/yy/factory_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yy/factory_ws/build/wpr_simulation2
+[20.175s] -- Install configuration: ""
+[20.175s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2
+[20.175s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h
+[20.176s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so
+[20.177s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so" to ""
+[20.177s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[20.177s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[20.177s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so
+[20.177s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so" to ""
+[20.177s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[20.177s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[20.177s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp
+[20.177s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so
+[20.178s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so
+[20.178s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so" to ""
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so
+[20.178s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so" to ""
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[20.178s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[20.178s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so
+[20.179s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so" to ""
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so
+[20.179s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so" to ""
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so
+[20.179s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c
+[20.199s] Listing '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...
+[20.199s] Compiling '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py'...
+[20.199s] Listing '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...
+[20.199s] Compiling '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py'...
+[20.199s] Compiling '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py'...
+[20.201s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.201s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.201s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.201s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.201s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.202s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.202s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so
+[20.202s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so" to ""
+[20.202s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl
+[20.202s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[20.202s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/config
+[20.202s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml
+[20.202s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml
+[20.202s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch
+[20.203s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py
+[20.203s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py
+[20.203s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py
+[20.203s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py
+[20.203s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py
+[20.203s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py
+[20.203s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py
+[20.204s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds
+[20.205s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world
+[20.206s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/factory_world.world
+[20.206s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world
+[20.206s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world
+[20.206s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
+[20.206s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model
+[20.207s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model
+[20.208s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes
+[20.209s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2
+[20.210s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae
+[20.210s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png
+[20.211s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae
+[20.211s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai
+[20.211s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png
+[20.212s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae
+[20.214s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae
+[20.214s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman
+[20.214s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae
+[20.215s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png
+[20.215s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home
+[20.215s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae
+[20.216s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae
+[20.222s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae
+[20.225s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl
+[20.225s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair
+[20.225s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg
+[20.226s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae
+[20.226s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3
+[20.226s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae
+[20.228s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed
+[20.228s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg
+[20.228s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg
+[20.228s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1
+[20.228s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae
+[20.229s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png
+[20.229s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae
+[20.229s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae
+[20.230s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae
+[20.230s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table
+[20.230s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg
+[20.230s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa
+[20.230s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg
+[20.231s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard
+[20.231s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg
+[20.231s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table
+[20.231s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg
+[20.231s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1
+[20.231s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae
+[20.232s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae
+[20.233s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae
+[20.234s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae
+[20.235s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae
+[20.237s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae
+[20.238s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae
+[20.240s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae
+[20.241s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft
+[20.241s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg
+[20.241s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz
+[20.241s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz
+[20.241s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz
+[20.241s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp
+[20.242s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp
+[20.243s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp
+[20.243s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg
+[20.243s] -- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[20.243s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/maps
+[20.243s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore
+[20.243s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py
+[20.243s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim
+[20.245s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim" to ""
+[20.245s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd
+[20.246s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd" to ""
+[20.246s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move
+[20.247s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move" to ""
+[20.247s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher
+[20.249s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher" to ""
+[20.250s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim
+[20.252s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim" to ""
+[20.252s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node
+[20.253s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node" to ""
+[20.253s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node
+[20.254s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node" to ""
+[20.254s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command
+[20.256s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command" to ""
+[20.256s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data
+[20.257s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data" to ""
+[20.257s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior
+[20.258s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior" to ""
+[20.258s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data
+[20.260s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data" to ""
+[20.260s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior
+[20.261s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior" to ""
+[20.261s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation
+[20.262s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation" to ""
+[20.262s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image
+[20.264s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image" to ""
+[20.264s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv
+[20.265s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv" to ""
+[20.265s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow
+[20.267s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow" to ""
+[20.267s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect
+[20.269s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect" to ""
+[20.269s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data
+[20.270s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data" to ""
+[20.270s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects
+[20.272s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects" to ""
+[20.272s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl
+[20.272s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl" to ""
+[20.272s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object
+[20.274s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object" to ""
+[20.274s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch
+[20.275s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch" to ""
+[20.275s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client
+[20.276s] -- Set runtime path of "/home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client" to ""
+[20.276s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2
+[20.276s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2
+[20.276s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh
+[20.276s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv
+[20.276s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake
+[20.277s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake
+[20.278s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake
+[20.279s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.280s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.280s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake
+[20.280s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake
+[20.280s] -- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml
+[20.281s] Invoked command in '/home/yy/factory_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yy/factory_ws/build/wpr_simulation2

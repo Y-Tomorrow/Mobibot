@@ -1,0 +1,16 @@
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/launch/slam.launch.py
+/home/yy/factory_ws/install/slam_pkg/share/ament_index/resource_index/package_run_dependencies/slam_pkg
+/home/yy/factory_ws/install/slam_pkg/share/ament_index/resource_index/parent_prefix_path/slam_pkg
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.sh
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.dsv
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/environment/path.sh
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/environment/path.dsv
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/local_setup.bash
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/local_setup.sh
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/local_setup.zsh
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/local_setup.dsv
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/package.dsv
+/home/yy/factory_ws/install/slam_pkg/share/ament_index/resource_index/packages/slam_pkg
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig.cmake
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig-version.cmake
+/home/yy/factory_ws/install/slam_pkg/share/slam_pkg/package.xml

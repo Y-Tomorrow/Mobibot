@@ -1,0 +1,338 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (wpr_simulation2) JobQueued: {'identifier': 'wpr_simulation2', 'dependencies': OrderedDict()}
+[0.000126] (wpr_simulation2) JobStarted: {'identifier': 'wpr_simulation2'}
+[0.006037] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'cmake'}
+[0.007189] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'build'}
+[0.007813] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yy/factory_ws/build/wpr_simulation2', '--', '-j20', '-l20'], 'cwd': '/home/yy/factory_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'yy'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yy/factory_ws/install/wpr_simulation2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/yy'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/yy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/factory_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/yy/anaconda3/condabin:/home/yy/.local/bin:/root/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yy:@/tmp/.ICE-unix/1489,unix/yy:/tmp/.ICE-unix/1489'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51ac37cf_40ee_4c3a_9ccf_8adaa7faee22'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libusb-1.0.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yy/factory_ws/install/wpr_simulation2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/yy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yy/factory_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/yy/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yy/factory_ws/install/wpr_simulation2:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.091107] (wpr_simulation2) StdoutLine: {'line': b'[  1%] Built target wpr_simulation2__cpp\n'}
+[0.096096] (wpr_simulation2) StdoutLine: {'line': b'[  5%] Built target wpr_simulation2__rosidl_generator_c\n'}
+[0.097976] (wpr_simulation2) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_wpr_simulation2\n'}
+[0.099647] (-) TimerEvent: {}
+[0.109432] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] Built target 4_velocity_command\n'}
+[0.109661] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] Built target 5_lidar_behavior\n'}
+[0.109711] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] Built target 6_imu_behavior\n'}
+[0.109747] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] Built target 5_lidar_data\n'}
+[0.109780] (wpr_simulation2) StdoutLine: {'line': b'[ 20%] Built target 3_my_node\n'}
+[0.109813] (wpr_simulation2) StdoutLine: {'line': b'[ 20%] Built target 8_waypoint_navigation\n'}
+[0.109846] (wpr_simulation2) StdoutLine: {'line': b'[ 22%] Built target 3_subscriber_node\n'}
+[0.109877] (wpr_simulation2) StdoutLine: {'line': b'[ 25%] Built target 3_publisher_node\n'}
+[0.110174] (wpr_simulation2) StdoutLine: {'line': b'[ 27%] Built target wpb_home_mani_sim\n'}
+[0.110313] (wpr_simulation2) StdoutLine: {'line': b'[ 30%] Built target ball_random_move\n'}
+[0.110423] (wpr_simulation2) StdoutLine: {'line': b'[ 32%] Built target 9_cv_follow\n'}
+[0.110587] (wpr_simulation2) StdoutLine: {'line': b'[ 35%] Built target keyboard_vel_cmd\n'}
+[0.110749] (wpr_simulation2) StdoutLine: {'line': b'[ 37%] Built target 9_cv_image\n'}
+[0.110876] (wpr_simulation2) StdoutLine: {'line': b'[ 45%] Built target 9_cv_face_detect\n'}
+[0.110932] (wpr_simulation2) StdoutLine: {'line': b'[ 45%] Built target 6_imu_data\n'}
+[0.110963] (wpr_simulation2) StdoutLine: {'line': b'[ 45%] Built target 9_cv_hsv\n'}
+[0.113496] (wpr_simulation2) StdoutLine: {'line': b'[ 48%] Built target 11_mani_ctrl\n'}
+[0.114546] (wpr_simulation2) StdoutLine: {'line': b'[ 50%] Built target 12_fetch\n'}
+[0.123350] (wpr_simulation2) StdoutLine: {'line': b'[ 55%] Built target wpr_simulation2__rosidl_typesupport_c\n'}
+[0.123469] (wpr_simulation2) StdoutLine: {'line': b'[ 58%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp\n'}
+[0.123500] (wpr_simulation2) StdoutLine: {'line': b'[ 62%] Built target wpr_simulation2__rosidl_typesupport_introspection_c\n'}
+[0.123546] (wpr_simulation2) StdoutLine: {'line': b'[ 65%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c\n'}
+[0.125138] (wpr_simulation2) StdoutLine: {'line': b'[ 69%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.126794] (wpr_simulation2) StdoutLine: {'line': b'[ 73%] Built target wpr_simulation2__rosidl_typesupport_cpp\n'}
+[0.128782] (wpr_simulation2) StdoutLine: {'line': b'[ 75%] Built target demo_nav2_client\n'}
+[0.131360] (wpr_simulation2) StdoutLine: {'line': b'[ 78%] Built target 10_pc_data\n'}
+[0.137962] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target 10_pc_objects\n'}
+[0.141117] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] Built target wpr_simulation2\n'}
+[0.145020] (wpr_simulation2) StdoutLine: {'line': b'[ 83%] Built target 11_grab_object\n'}
+[0.146984] (wpr_simulation2) StdoutLine: {'line': b'[ 86%] Built target grab_object_sim\n'}
+[0.149509] (wpr_simulation2) StdoutLine: {'line': b'[ 88%] Built target objects_publisher\n'}
+[0.154414] (wpr_simulation2) StdoutLine: {'line': b'[ 89%] Built target wpr_simulation2__py\n'}
+[0.170071] (wpr_simulation2) StdoutLine: {'line': b'[ 92%] Built target wpr_simulation2__rosidl_generator_py\n'}
+[0.184954] (wpr_simulation2) StdoutLine: {'line': b'[ 94%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.185405] (wpr_simulation2) StdoutLine: {'line': b'[ 97%] Built target wpr_simulation2__rosidl_typesupport_c__pyext\n'}
+[0.186505] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199739] (-) TimerEvent: {}
+[0.227049] (wpr_simulation2) StdoutLine: {'line': b'running egg_info\n'}
+[0.227360] (wpr_simulation2) StdoutLine: {'line': b'writing wpr_simulation2.egg-info/PKG-INFO\n'}
+[0.227796] (wpr_simulation2) StdoutLine: {'line': b'writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt\n'}
+[0.227862] (wpr_simulation2) StdoutLine: {'line': b'writing top-level names to wpr_simulation2.egg-info/top_level.txt\n'}
+[0.229237] (wpr_simulation2) StdoutLine: {'line': b"reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[0.229569] (wpr_simulation2) StdoutLine: {'line': b"writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[0.242779] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_wpr_simulation2_egg\n'}
+[0.250500] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[0.251200] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'install'}
+[0.255738] (wpr_simulation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yy/factory_ws/build/wpr_simulation2'], 'cwd': '/home/yy/factory_ws/build/wpr_simulation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'yy'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yy/factory_ws/install/wpr_simulation2/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/yy'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/yy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/factory_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/yy/anaconda3/condabin:/home/yy/.local/bin:/root/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yy:@/tmp/.ICE-unix/1489,unix/yy:/tmp/.ICE-unix/1489'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51ac37cf_40ee_4c3a_9ccf_8adaa7faee22'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libusb-1.0.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yy/factory_ws/install/wpr_simulation2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/yy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yy/factory_ws/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/yy/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yy/factory_ws/install/wpr_simulation2:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.261509] (wpr_simulation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.261921] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2\n'}
+[0.262061] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.262186] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.262250] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h\n'}
+[0.262284] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.262321] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h\n'}
+[0.262360] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c\n'}
+[0.262385] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h\n'}
+[0.262417] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h\n'}
+[0.262437] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.262456] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh\n'}
+[0.262475] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv\n'}
+[0.262747] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so\n'}
+[0.262802] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.262835] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.262857] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.262878] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[0.262905] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.263098] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.263150] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.263187] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.263215] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.263245] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp\n'}
+[0.263274] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp\n'}
+[0.263310] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp\n'}
+[0.263345] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp\n'}
+[0.263364] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.263382] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp\n'}
+[0.263401] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.263420] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.263439] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.263458] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps\n'}
+[0.263476] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.263494] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.263752] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.263802] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.263839] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.263861] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.263881] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[0.263909] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c\n'}
+[0.263928] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.264073] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so\n'}
+[0.264263] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so\n'}
+[0.264305] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[0.264340] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[0.264361] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[0.264380] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp\n'}
+[0.264398] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.264575] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.264786] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so\n'}
+[0.264832] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh\n'}
+[0.264865] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv\n'}
+[0.264887] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info\n'}
+[0.264917] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.264949] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.264976] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.265001] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.265036] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2\n'}
+[0.265107] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.265134] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.265162] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.265196] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.265216] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py\n'}
+[0.265240] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.265262] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg\n'}
+[0.265292] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c\n'}
+[0.265326] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py\n'}
+[0.265347] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py\n'}
+[0.265365] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so\n'}
+[0.265386] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c\n'}
+[0.281428] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...\n"}
+[0.281472] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...\n"}
+[0.283628] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.283876] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.284125] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.284253] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so\n'}
+[0.284305] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl\n'}
+[0.284341] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[0.284367] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/config\n'}
+[0.284401] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml\n'}
+[0.284445] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml\n'}
+[0.284466] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch\n'}
+[0.284487] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py\n'}
+[0.284513] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py\n'}
+[0.284539] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py\n'}
+[0.284564] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py\n'}
+[0.284590] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py\n'}
+[0.284614] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py\n'}
+[0.284639] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py\n'}
+[0.284665] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py\n'}
+[0.284688] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py\n'}
+[0.284717] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py\n'}
+[0.284768] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py\n'}
+[0.284787] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py\n'}
+[0.284806] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py\n'}
+[0.284829] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py\n'}
+[0.284854] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py\n'}
+[0.284879] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py\n'}
+[0.284904] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py\n'}
+[0.284928] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py\n'}
+[0.284954] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py\n'}
+[0.284975] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py\n'}
+[0.284997] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch\n'}
+[0.285019] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py\n'}
+[0.285040] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py\n'}
+[0.285060] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml\n'}
+[0.285080] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py\n'}
+[0.285099] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py\n'}
+[0.285119] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml\n'}
+[0.285139] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py\n'}
+[0.285161] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds\n'}
+[0.285183] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world\n'}
+[0.285203] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/factory.world\n'}
+[0.285223] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world\n'}
+[0.285247] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world\n'}
+[0.285266] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world\n'}
+[0.285286] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world\n'}
+[0.285343] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world\n'}
+[0.285371] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models\n'}
+[0.285393] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model\n'}
+[0.285425] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model\n'}
+[0.285444] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls\n'}
+[0.285464] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model\n'}
+[0.285488] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model\n'}
+[0.285508] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model\n'}
+[0.285527] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model\n'}
+[0.285547] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model\n'}
+[0.285570] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model\n'}
+[0.285590] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model\n'}
+[0.285610] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model\n'}
+[0.285630] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model\n'}
+[0.285652] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model\n'}
+[0.285671] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model\n'}
+[0.285691] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model\n'}
+[0.285711] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model\n'}
+[0.285735] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model\n'}
+[0.285761] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model\n'}
+[0.285781] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model\n'}
+[0.285805] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model\n'}
+[0.285828] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model\n'}
+[0.285849] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles\n'}
+[0.285869] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model\n'}
+[0.285890] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model\n'}
+[0.285911] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model\n'}
+[0.285930] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes\n'}
+[0.285950] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2\n'}
+[0.285972] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae\n'}
+[0.285992] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png\n'}
+[0.286012] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae\n'}
+[0.286034] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai\n'}
+[0.286055] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png\n'}
+[0.286075] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae\n'}
+[0.286096] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae\n'}
+[0.286116] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman\n'}
+[0.286136] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae\n'}
+[0.286157] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png\n'}
+[0.286179] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home\n'}
+[0.286199] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae\n'}
+[0.286265] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae\n'}
+[0.286291] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae\n'}
+[0.286312] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl\n'}
+[0.286332] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair\n'}
+[0.286354] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg\n'}
+[0.286377] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae\n'}
+[0.286401] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3\n'}
+[0.286426] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae\n'}
+[0.286451] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed\n'}
+[0.286477] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg\n'}
+[0.286499] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg\n'}
+[0.286527] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1\n'}
+[0.286549] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae\n'}
+[0.286569] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png\n'}
+[0.286613] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae\n'}
+[0.286632] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae\n'}
+[0.286654] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae\n'}
+[0.286674] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table\n'}
+[0.286694] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg\n'}
+[0.286714] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa\n'}
+[0.286734] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg\n'}
+[0.286755] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard\n'}
+[0.286774] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg\n'}
+[0.286794] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table\n'}
+[0.286814] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg\n'}
+[0.286834] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1\n'}
+[0.286853] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae\n'}
+[0.286873] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae\n'}
+[0.286893] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae\n'}
+[0.286913] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae\n'}
+[0.286933] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae\n'}
+[0.286953] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae\n'}
+[0.286972] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae\n'}
+[0.286992] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae\n'}
+[0.287012] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft\n'}
+[0.287033] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg\n'}
+[0.287062] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz\n'}
+[0.287080] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz\n'}
+[0.287098] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz\n'}
+[0.287118] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz\n'}
+[0.287136] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz\n'}
+[0.287154] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz\n'}
+[0.287172] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz\n'}
+[0.287190] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz\n'}
+[0.287209] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src\n'}
+[0.287229] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py\n'}
+[0.287249] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp\n'}
+[0.287268] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp\n'}
+[0.287287] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp\n'}
+[0.287305] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp\n'}
+[0.287324] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp\n'}
+[0.287342] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg\n'}
+[0.287360] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[0.287379] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/maps\n'}
+[0.287396] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore\n'}
+[0.287414] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py\n'}
+[0.287432] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim\n'}
+[0.287468] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd\n'}
+[0.287825] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move\n'}
+[0.288230] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher\n'}
+[0.288634] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim\n'}
+[0.288990] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node\n'}
+[0.289493] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node\n'}
+[0.289853] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command\n'}
+[0.290281] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data\n'}
+[0.290617] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior\n'}
+[0.291011] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data\n'}
+[0.291286] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior\n'}
+[0.291715] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation\n'}
+[0.292019] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image\n'}
+[0.292343] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv\n'}
+[0.292708] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow\n'}
+[0.293015] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect\n'}
+[0.293317] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data\n'}
+[0.293683] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects\n'}
+[0.294106] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl\n'}
+[0.294405] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object\n'}
+[0.294708] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch\n'}
+[0.295265] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client\n'}
+[0.295317] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2\n'}
+[0.295389] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2\n'}
+[0.295419] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh\n'}
+[0.295454] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv\n'}
+[0.295478] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh\n'}
+[0.295500] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv\n'}
+[0.295537] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash\n'}
+[0.295558] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh\n'}
+[0.295577] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh\n'}
+[0.295596] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv\n'}
+[0.295615] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv\n'}
+[0.295646] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2\n'}
+[0.296041] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake\n'}
+[0.296072] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.296254] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.296288] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.296397] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake\n'}
+[0.296579] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.296611] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.296815] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.296846] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.297080] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake\n'}
+[0.297110] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.297223] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.297256] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.297436] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake\n'}
+[0.297468] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.297605] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake\n'}
+[0.297638] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.297663] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.297699] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.297724] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.297747] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.297781] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.297800] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.297820] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.297841] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake\n'}
+[0.297861] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake\n'}
+[0.297881] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml\n'}
+[0.298955] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[0.299795] (-) TimerEvent: {}
+[0.313787] (wpr_simulation2) JobEnded: {'identifier': 'wpr_simulation2', 'rc': 0}
+[0.314006] (-) EventReactorShutdown: {}
