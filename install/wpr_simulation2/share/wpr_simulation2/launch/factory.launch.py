@@ -52,6 +52,7 @@ def generate_launch_description():
         )
     )
 
+    # 生成机器人模型
     spawn_robot_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_file_dir, 'spawn_wpb_lidar.launch.py')
@@ -63,6 +64,7 @@ def generate_launch_description():
     }.items()
     )
 
+    # 生成场景中的障碍物
     spawn_objects = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_file_dir, 'spawn_objects.launch.py')

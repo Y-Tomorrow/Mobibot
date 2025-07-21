@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<robot name="wpb_home_gazebo">
+
+<link name="base_footprint">
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.05 0.05 0.001" />
+    </geometry>
+  </visual>
+</link>
+
+<!-- base -->
+<link name="base_link">
+  <visual>
+   <geometry>
+    <box size="0.01 0.01 0.001" />
+   </geometry>
+   <origin rpy = "0 0 0" xyz = "0 0 0"/>
+  </visual>
+</link>
+
+<joint name="base_joint" type="fixed">
+  <origin xyz="0 0 0" rpy="0 0 0" />
+  <parent link="base_footprint"/>
+  <child link="base_link" />
+</joint>
+
+<!-- body -->
+<link name = "body_link">
+  <visual>
+    <geometry>
+      <mesh filename="package://wpr_simulation2/meshes/wpb_home/wpb_home_std.dae" scale="1 1 1"/>
+    </geometry>
+    <origin rpy = "1.57 0 1.57" xyz = "-.225 -0.225 0"/>
+  </visual>
+  <collision>
+    <origin xyz="0.001 0 .065" rpy="0 0 0" />
+    <geometry>
+      <cylinder length="0.13" radius="0.226"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="20"/>
+    <inertia ixx="4.00538" ixy="0.0" ixz="0.0" iyy="4.00538" iyz="0.0" izz="0.51076"/>
+  </inertial>
+</link>
+<joint name = "base_to_body" type = "fixed">
+  <parent link = "base_link"/>
+  <child link = "body_link"/>
+  <origin rpy="0 0 0" xyz="0 0 0"/> <!--pos-->
+</joint>
+
+<!-- top of base -->
+<link name = "base_top_link">
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.33 0.31 0.01"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.01"/>
+    <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+  </inertial>
+</link>
+<joint name = "body_to_top" type = "fixed">
+  <parent link = "body_link"/>
+  <child link = "base_top_link"/>
+  <origin rpy="0 0 0" xyz="0.01 0 0.2"/> <!--pos-->
+</joint>
+
+<!-- back -->
+<link name = "body_back_link">
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.03 0.23 1.05"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.01"/>
+    <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+  </inertial>
+</link>
+<joint name = "body_to_back" type = "fixed">
+  <parent link = "base_top_link"/>
+  <child link = "body_back_link"/>
+  <origin rpy="0 0.31 0" xyz="-0.038 0 0.5"/> <!--pos-->
+</joint>
+
+<!-- head -->
+<link name = "head_link">
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.07 0.28  0.06"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.01"/>
+    <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+  </inertial>
+</link>
+<joint name = "body_to_head" type = "fixed">
+  <parent link = "base_top_link"/>
+  <child link = "head_link"/>
+  <origin rpy="0 0.27 0" xyz="0.155 0 1.17"/> <!--pos-->
+</joint>
+
+<!-- front -->
+<link name = "front_link">
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+     <cylinder length="1.1" radius="0.01"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.01"/>
+    <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+  </inertial>
+</link>
+<joint name = "body_to_front" type = "fixed">
+  <parent link = "base_top_link"/>
+  <child link = "front_link"/>
+  <origin rpy="0 0 0" xyz="0.15 0 0.55"/> <!--pos-->
+</joint>
+
+<!-- Delta-3A Lidar -->
+<link name = "laser_link">
+  <visual>
+    <geometry>
+      <cylinder length="0.06" radius="0.05"/> <!-- Delta-3A的物理尺寸 -->
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <material name="black">
+      <color rgba="0.1 0.1 0.1 1"/>
+    </material>
+  </visual>
+</link>
+
+<joint name="laser_joint" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0.15"/> <!-- 安装位置 -->
+  <parent link="base_link" />
+  <child link="laser_link" />
+</joint>
+
+<!-- Gazebo plugin for Delta-3A Lidar -->
+<gazebo reference="laser_link">
+  <sensor type="ray" name="delta3a_laser">
+    <pose>0 0 0.03 0 0 0</pose> <!-- 激光发射点偏移 -->
+    <visualize>true</visualize>
+    <update_rate>10</update_rate> <!-- 扫描频率10Hz -->
+    <ray>
+      <scan>
+        <horizontal>
+          <samples>1600</samples> <!-- 360°/0.225°≈1600采样点 -->
+          <resolution>1.0</resolution>
+          <min_angle>-3.14159265</min_angle> <!-- -180° -->
+          <max_angle>3.14159265</max_angle> <!-- +180° -->
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.10</min> <!-- 最小检测距离 -->
+        <max>30.0</max> <!-- 最大检测距离 -->
+        <resolution>0.003</resolution> <!-- 距离分辨率3mm -->
+      </range>
+      <noise>
+        <type>gaussian</type> <!-- 高斯噪声模型 -->
+        <mean>0.0</mean>
+        <stddev>0.03</stddev> <!-- 30mm噪声标准差 -->
+      </noise>
+    </ray>
+    <plugin name="gazebo_ros_delta3a_laser" filename="libgazebo_ros_ray_sensor.so">
+      <ros>
+        <namespace>/</namespace>
+        <remapping>~/out:=scan</remapping> <!-- 发布话题名称 -->
+      </ros>
+      <output_type>sensor_msgs/LaserScan</output_type>
+      <frame_name>laser_link</frame_name> <!-- 坐标系 -->
+    </plugin>
+  </sensor>
+</gazebo>
+
+
+<!-- ########################################################### -->
+<!-- RealSense D455 配置 -->
+<!-- ########################################################### -->
+
+<!-- 安装底座 -->
+<link name="d455_base_link">
+  <visual>
+    <geometry>
+      <box size="0.1 0.1 0.02"/>
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 -0.01"/>
+    <material name="black">
+      <color rgba="0.1 0.1 0.1 1"/>
+    </material>
+  </visual>
+</link>
+<joint name="d455_base_joint" type="fixed">
+  <parent link="base_link" />
+  <child link="d455_base_link" />
+  <origin xyz="0.15 0 1.0" rpy="0 0 0"/> <!-- 安装位置 -->
+</joint>
+
+<!-- 相机主体 -->
+<link name="d455_link">
+  <visual>
+    <geometry>
+      <box size="0.09 0.03 0.034"/> <!-- D455 尺寸：90x30x34mm -->
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 0.017"/>
+    <material name="black">
+      <color rgba="0.1 0.1 0.1 1"/>
+    </material>
+  </visual>
+  <collision>
+    <geometry>
+      <box size="0.09 0.03 0.034"/>
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 0.017"/>
+  </collision>
+</link>
+<joint name="d455_joint" type="fixed">
+  <parent link="d455_base_link" />
+  <child link="d455_link" />
+  <origin xyz="0 0 0.05" rpy="0 0 0"/>
+</joint>
+
+<!-- 光学参考框架 -->
+<link name="d455_color_frame">
+  <visual>
+    <geometry>
+      <box size="0.01 0.01 0.01"/>
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </visual>
+</link>
+<joint name="d455_color_joint" type="fixed">
+  <parent link="d455_link" />
+  <child link="d455_color_frame" />
+  <origin xyz="0.02 0 -0.01" rpy="0 -0.26 0"/> <!-- 角度略微向下倾斜 -->
+</joint>
+
+<link name="d455_depth_frame">
+  <visual>
+    <geometry>
+      <box size="0.01 0.01 0.01"/>
+    </geometry>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </visual>
+</link>
+<joint name="d455_depth_joint" type="fixed">
+  <parent link="d455_link" />
+  <child link="d455_depth_frame" />
+  <origin xyz="0.02 0 0" rpy="0 -0.26 0"/>
+</joint>
+
+<!-- Gazebo 插件配置 - RGB 相机 -->
+<gazebo reference="d455_color_frame">
+  <sensor type="camera" name="d455_rgb_sensor">
+    <always_on>true</always_on>
+    <update_rate>30</update_rate>
+    <camera name="d455_rgb">
+      <horizontal_fov>1.50098</horizontal_fov> <!-- 86° FOV -->
+      <image>
+        <width>1920</width>
+        <height>1080</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.1</near> <!-- 最小距离0.1米 -->
+        <far>10.0</far>  <!-- 最大距离10米 -->
+      </clip>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>0.01</stddev>
+      </noise>
+    </camera>
+    <plugin name="d455_rgb_plugin" filename="libgazebo_ros_camera.so">
+      <ros>
+        <namespace>/camera</namespace>
+        <remapping>image_raw:=color/image_raw</remapping>
+        <remapping>camera_info:=color/camera_info</remapping>
+      </ros>
+      <camera_name>color</camera_name>
+      <frame_name>d455_color_frame</frame_name>
+      <hack_baseline>0.01</hack_baseline>
+    </plugin>
+  </sensor>
+</gazebo>
+
+<!-- Gazebo 插件配置 - 深度相机 -->
+<gazebo reference="d455_depth_frame">
+  <sensor type="depth" name="d455_depth_sensor">
+    <always_on>true</always_on>
+    <update_rate>30</update_rate>
+    <camera name="d455_depth">
+      <horizontal_fov>1.50098</horizontal_fov> <!-- 86° FOV -->
+      <image>
+        <width>1280</width>
+        <height>720</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.1</near>
+        <far>6.0</far>  <!-- 典型有效测距范围 6米 -->
+      </clip>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>0.005</stddev>
+      </noise>
+    </camera>
+    <plugin name="d455_depth_plugin" filename="libgazebo_ros_camera.so">
+      <ros>
+        <namespace>/camera</namespace>
+        <remapping>image_raw:=depth/image_raw</remapping>
+        <remapping>camera_info:=depth/camera_info</remapping>
+      </ros>
+      <camera_name>depth</camera_name>
+      <frame_name>d455_depth_frame</frame_name>
+      <hack_baseline>0.05</hack_baseline> <!-- 5cm基线 -->
+      <min_depth>0.1</min_depth>
+      <max_depth>6.0</max_depth>
+    </plugin>
+  </sensor>
+</gazebo>
+
+<!-- Gazebo 插件配置 - 点云 -->
+<gazebo reference="d455_depth_frame">
+  <plugin name="d455_pointcloud" filename="libgazebo_ros_openni_kinect.so">
+    <cameraName>camera</cameraName>
+    <imageTopicName>depth/image_raw</imageTopicName>
+    <cameraInfoTopicName>depth/camera_info</cameraInfoTopicName>
+    <pointCloudTopicName>depth/points</pointCloudTopicName>
+    <frameName>d455_depth_frame</frameName>
+    <baseline>0.05</baseline> <!-- D455基线为5cm -->
+    <min_depth>0.1</min_depth>
+    <max_depth>6.0</max_depth>
+    <pointCloudCutoff>0.1</pointCloudCutoff>
+    <pointCloudCutoffMax>6.0</pointCloudCutoffMax>
+    <distortionK1>0.0</distortionK1>
+    <distortionK2>0.0</distortionK2>
+    <distortionK3>0.0</distortionK3>
+    <distortionT1>0.0</distortionT1>
+    <distortionT2>0.0</distortionT2>
+  </plugin>
+</gazebo>
+
+<!-- 用于IMU仿真 -->
+<gazebo reference="d455_link">
+  <sensor name="d455_imu" type="imu">
+    <always_on>true</always_on>
+    <update_rate>250</update_rate>
+    <visualize>true</visualize>
+    <topic>imu/data</topic>
+    <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+      <ros>
+        <namespace>/camera</namespace>
+      </ros>
+      <initialOrientationAsReference>false</initialOrientationAsReference>
+      <bodyName>d455_link</bodyName>
+    </plugin>
+    <pose>0 0 0 0 0 0</pose>
+  </sensor>
+</gazebo>
+
+
+<!-- Gazebo plugin for mobile base -->
+<gazebo>
+  <plugin name="base_controller" filename="libgazebo_ros_planar_move.so">
+    <ros>
+      <!-- <namespace>/wpb</namespace> -->
+      <remapping>cmd_vel:=cmd_vel</remapping>
+      <remapping>odom:=odom</remapping>
+    </ros>
+    <!-- Set control loop update rate -->
+    <update_rate>100</update_rate>
+    <!-- Set odom publish rate -->
+    <publish_rate>20</publish_rate>
+    <!-- Set if odom required -->
+    <publish_odom>true</publish_odom>
+    <publish_odom_tf>true</publish_odom_tf>
+    <!-- Frame IDs -->
+    <odometry_frame>odom</odometry_frame>
+    <robot_base_frame>base_footprint</robot_base_frame>
+    <!-- Set odom covariance -->
+    <covariance_x>0.0001</covariance_x>
+    <covariance_y>0.0001</covariance_y>
+    <covariance_yaw>0.01</covariance_yaw>
+  </plugin>
+</gazebo> 
+
+<!-- Gazebo plugin for IMU -->
+<gazebo reference="body_link">
+  <gravity>true</gravity>
+  <sensor name="imu_sensor" type="imu">
+    <always_on>true</always_on>
+    <update_rate>100</update_rate>
+    <imu>
+      <angular_velocity>
+        <x>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </x>
+        <y>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </y>
+        <z>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </z>
+      </angular_velocity>
+      <linear_acceleration>
+        <x>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </x>
+        <y>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </y>
+        <z>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </z>
+      </linear_acceleration>
+    </imu>
+    <plugin name="wpb_imu" filename="libgazebo_ros_imu_sensor.so">
+      <ros>
+        <namespace>/</namespace>
+        <remapping>~/out:=imu/data</remapping>
+      </ros>
+      <frame_name>body_link</frame_name>
+    </plugin>
+  </sensor>
+</gazebo>
+
+</robot>

@@ -29,7 +29,8 @@ def generate_launch_description():
     urdf_path = os.path.join(
         get_package_share_directory('wpr_simulation2'),
         'models',
-        'wpb_home_lidar.model'
+        'MobiBot.model'
+        # 'wpb_home_lidar.model'
     )
 
     # Process the URDF file

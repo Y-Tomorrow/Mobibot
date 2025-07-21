@@ -62,7 +62,6 @@
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py
-/home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py
@@ -73,6 +72,7 @@
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py
+/home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/factory.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py
@@ -88,6 +88,7 @@
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+/home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/MobiBot.model
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model
