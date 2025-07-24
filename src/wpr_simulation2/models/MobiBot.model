@@ -184,192 +184,196 @@
 </gazebo>
 
 
-<!-- ########################################################### -->
-<!-- RealSense D455 配置 -->
-<!-- ########################################################### -->
-
-<!-- 安装底座 -->
-<link name="d455_base_link">
+<!-- Kinect -->
+<link name = "kinect2_dock">
   <visual>
-    <geometry>
-      <box size="0.1 0.1 0.02"/>
-    </geometry>
-    <origin rpy="0 0 0" xyz="0 0 -0.01"/>
-    <material name="black">
-      <color rgba="0.1 0.1 0.1 1"/>
-    </material>
+   <geometry>
+    <!-- <box size=".01 .25 .07"/>-->
+    <box size="0.001 0.001 0.001"/>
+   </geometry>
+   <origin rpy = "0 0 0" xyz = "0 0 0"/>
   </visual>
 </link>
-<joint name="d455_base_joint" type="fixed">
-  <parent link="base_link" />
-  <child link="d455_base_link" />
-  <origin xyz="0.15 0 1.0" rpy="0 0 0"/> <!-- 安装位置 -->
+<joint name="kinect_height" type="fixed">
+  <parent link="base_link"/>
+  <child link="kinect2_dock"/>
+  <origin xyz="0.145 -0.013 1.37" rpy="0 0 0"/> 
 </joint>
 
-<!-- 相机主体 -->
-<link name="d455_link">
+<link name = "kinect2_head_frame">
   <visual>
-    <geometry>
-      <box size="0.09 0.03 0.034"/> <!-- D455 尺寸：90x30x34mm -->
-    </geometry>
-    <origin rpy="0 0 0" xyz="0 0 0.017"/>
-    <material name="black">
-      <color rgba="0.1 0.1 0.1 1"/>
-    </material>
-  </visual>
-  <collision>
-    <geometry>
-      <box size="0.09 0.03 0.034"/>
-    </geometry>
-    <origin rpy="0 0 0" xyz="0 0 0.017"/>
-  </collision>
-</link>
-<joint name="d455_joint" type="fixed">
-  <parent link="d455_base_link" />
-  <child link="d455_link" />
-  <origin xyz="0 0 0.05" rpy="0 0 0"/>
-</joint>
-
-<!-- 光学参考框架 -->
-<link name="d455_color_frame">
-  <visual>
-    <geometry>
-      <box size="0.01 0.01 0.01"/>
-    </geometry>
-    <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <box size="0.001 0.001 0.001"/>
+   </geometry>
+   <origin xyz = "0 0 0" rpy = "0 0 0"/>
   </visual>
 </link>
-<joint name="d455_color_joint" type="fixed">
-  <parent link="d455_link" />
-  <child link="d455_color_frame" />
-  <origin xyz="0.02 0 -0.01" rpy="0 -0.26 0"/> <!-- 角度略微向下倾斜 -->
+<!--kinect_pitch -->
+<joint name="kinect_pitch" type="fixed">
+  <origin xyz="0 0 0" rpy="0 0.5 0" /> 
+  <parent link="kinect2_dock" />
+  <child link="kinect2_head_frame" />
 </joint>
 
-<link name="d455_depth_frame">
+<link name = "kinect2_front_frame">
   <visual>
-    <geometry>
-      <box size="0.01 0.01 0.01"/>
-    </geometry>
-    <origin rpy="0 0 0" xyz="0 0 0"/>
+   <geometry>
+    <box size="0.001 0.001 0.001"/>
+   </geometry>
+   <origin xyz = "0 0 0" rpy = "0 0 0"/>
   </visual>
 </link>
-<joint name="d455_depth_joint" type="fixed">
-  <parent link="d455_link" />
-  <child link="d455_depth_frame" />
-  <origin xyz="0.02 0 0" rpy="0 -0.26 0"/>
+<joint name="kinect_head" type="fixed">
+  <origin xyz="0 0 0" rpy=" 0 1.57 0" /> 
+  <parent link="kinect2_head_frame" />
+  <child link="kinect2_front_frame" />
+</joint>
+<link name = "kinect2_ir_optical_frame">
+  <visual>
+   <geometry>
+    <!-- <box size=".25 .04 .07"/>-->
+    <box size="0.001 0.001 0.001"/>
+   </geometry>
+   <origin xyz = "0 0 0" rpy = "0 0 0"/>
+  </visual>
+</link>
+<joint name="kinect_ir_trans" type="fixed">
+  <origin xyz="0 0 0" rpy="0 0 -1.57" /> 
+  <parent link="kinect2_front_frame" />
+  <child link="kinect2_ir_optical_frame" />
 </joint>
 
-<!-- Gazebo 插件配置 - RGB 相机 -->
-<gazebo reference="d455_color_frame">
-  <sensor type="camera" name="d455_rgb_sensor">
+<link name = "kinect2_camera_frame">
+  <visual>
+   <geometry>
+    <box size="0.001 0.001 0.001"/>
+   </geometry>
+   <origin rpy = "0 0 0" xyz = "0 0 0" />
+  </visual>
+</link>
+<joint name="kinect_camra_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="3.1415926 0 -1.5707963" />
+    <parent link="kinect2_ir_optical_frame" />
+    <child link="kinect2_camera_frame" />
+</joint>
+
+<link name = "kinect2_rgb_optical_frame">
+  <visual>
+   <geometry>
+    <box size="0.001 0.001 0.001"/>
+   </geometry>
+   <origin rpy = "0 0 0" xyz = "0 0 0" />
+  </visual>
+</link>
+<joint name="kinect_hd_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.5707963 0" />
+    <parent link="kinect2_camera_frame" />
+    <child link="kinect2_rgb_optical_frame" />
+</joint>
+
+<!-- Gazebo plugin for Kinect v2 -->
+<gazebo reference="kinect2_head_frame">
+  <sensor type="depth" name="kinect2_depth_sensor" >
     <always_on>true</always_on>
-    <update_rate>30</update_rate>
-    <camera name="d455_rgb">
-      <horizontal_fov>1.50098</horizontal_fov> <!-- 86° FOV -->
+    <update_rate>10.0</update_rate>
+    <camera name="kinect2_depth_sensor">
+      <horizontal_fov>1.221730456</horizontal_fov>
       <image>
-        <width>1920</width>
-        <height>1080</height>
-        <format>R8G8B8</format>
+          <width>512</width>
+          <height>424</height>
+          <format>B8G8R8</format>
       </image>
       <clip>
-        <near>0.1</near> <!-- 最小距离0.1米 -->
-        <far>10.0</far>  <!-- 最大距离10米 -->
+          <near>0.5</near>
+          <far>6.0</far>
       </clip>
       <noise>
-        <type>gaussian</type>
-        <mean>0.0</mean>
-        <stddev>0.01</stddev>
+          <type>gaussian</type>
+          <mean>0.1</mean>
+          <stddev>0.07</stddev>
       </noise>
     </camera>
-    <plugin name="d455_rgb_plugin" filename="libgazebo_ros_camera.so">
-      <ros>
-        <namespace>/camera</namespace>
-        <remapping>image_raw:=color/image_raw</remapping>
-        <remapping>camera_info:=color/camera_info</remapping>
-      </ros>
-      <camera_name>color</camera_name>
-      <frame_name>d455_color_frame</frame_name>
-      <hack_baseline>0.01</hack_baseline>
+    <plugin name="kinect2_depth_control" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>kinect2</namespace>
+          <remapping>custom_camera/image_raw:=image_color_rect</remapping>
+          <remapping>custom_camera/image_depth:=image_depth_rect</remapping>
+          <remapping>custom_camera/camera_info:=camera_info</remapping>
+          <remapping>custom_camera/camera_info_depth:=/depth_camera_info</remapping>
+          <remapping>custom_camera/points:=points</remapping>
+        </ros>
+        <camera_name>sd</camera_name>
+        <frame_name>kinect2_ir_optical_frame</frame_name>
+        <hack_baseline>0.1</hack_baseline>
+        <min_depth>0.001</min_depth>
+        <max_depth>300.0</max_depth>
     </plugin>
   </sensor>
 </gazebo>
+<gazebo reference="kinect2_rgb_optical_frame">
+    <sensor type="camera" name="kinect2_rgb_sensor">
+        <always_on>true</always_on>
+        <update_rate>20.0</update_rate>
+        <camera name="hd">
+          <horizontal_fov>1.221730456</horizontal_fov>
+          <image>
+              <width>1920</width>
+              <height>1080</height>
+              <format>B8G8R8</format>
+          </image>
+          <clip>
+              <near>0.2</near>
+              <far>10.0</far>
+          </clip>
+          <noise>
+              <type>gaussian</type>
+              <mean>0.0</mean>
+              <stddev>0.007</stddev>
+          </noise>
+        </camera>
+        <plugin name="kinect2_rgb_controller" filename="libgazebo_ros_camera.so">
+          <ros>
+            <namespace>kinect2</namespace>
+            <remapping>image_raw:=image_color_rect</remapping>
+            <remapping>camera_info:=camera_info</remapping>
+          </ros>
+          <camera_name>hd</camera_name>
+          <frame_name>kinect2_rgb_optical_frame</frame_name>
 
-<!-- Gazebo 插件配置 - 深度相机 -->
-<gazebo reference="d455_depth_frame">
-  <sensor type="depth" name="d455_depth_sensor">
-    <always_on>true</always_on>
-    <update_rate>30</update_rate>
-    <camera name="d455_depth">
-      <horizontal_fov>1.50098</horizontal_fov> <!-- 86° FOV -->
-      <image>
-        <width>1280</width>
-        <height>720</height>
-        <format>R8G8B8</format>
-      </image>
-      <clip>
-        <near>0.1</near>
-        <far>6.0</far>  <!-- 典型有效测距范围 6米 -->
-      </clip>
-      <noise>
-        <type>gaussian</type>
-        <mean>0.0</mean>
-        <stddev>0.005</stddev>
-      </noise>
-    </camera>
-    <plugin name="d455_depth_plugin" filename="libgazebo_ros_camera.so">
-      <ros>
-        <namespace>/camera</namespace>
-        <remapping>image_raw:=depth/image_raw</remapping>
-        <remapping>camera_info:=depth/camera_info</remapping>
-      </ros>
-      <camera_name>depth</camera_name>
-      <frame_name>d455_depth_frame</frame_name>
-      <hack_baseline>0.05</hack_baseline> <!-- 5cm基线 -->
-      <min_depth>0.1</min_depth>
-      <max_depth>6.0</max_depth>
-    </plugin>
-  </sensor>
+          <hack_baseline>0.1</hack_baseline>
+        </plugin>
+    </sensor>
 </gazebo>
 
-<!-- Gazebo 插件配置 - 点云 -->
-<gazebo reference="d455_depth_frame">
-  <plugin name="d455_pointcloud" filename="libgazebo_ros_openni_kinect.so">
-    <cameraName>camera</cameraName>
-    <imageTopicName>depth/image_raw</imageTopicName>
-    <cameraInfoTopicName>depth/camera_info</cameraInfoTopicName>
-    <pointCloudTopicName>depth/points</pointCloudTopicName>
-    <frameName>d455_depth_frame</frameName>
-    <baseline>0.05</baseline> <!-- D455基线为5cm -->
-    <min_depth>0.1</min_depth>
-    <max_depth>6.0</max_depth>
-    <pointCloudCutoff>0.1</pointCloudCutoff>
-    <pointCloudCutoffMax>6.0</pointCloudCutoffMax>
-    <distortionK1>0.0</distortionK1>
-    <distortionK2>0.0</distortionK2>
-    <distortionK3>0.0</distortionK3>
-    <distortionT1>0.0</distortionT1>
-    <distortionT2>0.0</distortionT2>
-  </plugin>
-</gazebo>
+<gazebo reference="kinect2_head_frame">
+    <sensor type="camera" name="kinect2_qhd_rgb_sensor">
+        <always_on>true</always_on>
+        <update_rate>20.0</update_rate>
+        <camera name="qhd">
+          <horizontal_fov>1.221730456</horizontal_fov>
+          <image>
+              <width>960</width>
+              <height>540</height>
+              <format>R8G8B8</format>
+          </image>
+          <clip>
+              <near>0.2</near>
+              <far>10.0</far>
+          </clip>
+        </camera>
+        <plugin name="kinect2_qhd_rgb_controller" filename="libgazebo_ros_camera.so">
+          <ros>
+            <namespace>kinect2</namespace>
+            <remapping>image_raw:=image_color_rect</remapping>
+            <remapping>camera_info:=camera_info</remapping>
+          </ros>
+          <camera_name>qhd</camera_name>
+          <frame_name>kinect2_head_frame</frame_name>
 
-<!-- 用于IMU仿真 -->
-<gazebo reference="d455_link">
-  <sensor name="d455_imu" type="imu">
-    <always_on>true</always_on>
-    <update_rate>250</update_rate>
-    <visualize>true</visualize>
-    <topic>imu/data</topic>
-    <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
-      <ros>
-        <namespace>/camera</namespace>
-      </ros>
-      <initialOrientationAsReference>false</initialOrientationAsReference>
-      <bodyName>d455_link</bodyName>
-    </plugin>
-    <pose>0 0 0 0 0 0</pose>
-  </sensor>
+          <hack_baseline>0.1</hack_baseline>
+        </plugin>
+    </sensor>
 </gazebo>
-
 
 <!-- Gazebo plugin for mobile base -->
 <gazebo>
