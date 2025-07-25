@@ -1169,7 +1169,7 @@
           <geometry>
             <mesh>
               <scale>0.15 0.1 0.1</scale>
-              <uri>/home/yy/.gazebo/models/foldable_chair/mesh/foldable_chair.dae</uri>
+              <uri>file://../../models/foldable_chair/mesh/foldable_chair.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1208,7 +1208,7 @@
           <geometry>
             <mesh>
               <scale>0.15 0.1 0.1</scale>
-              <uri>/home/yy/.gazebo/models/foldable_chair/mesh/foldable_chair.dae</uri>
+              <uri>file://../../models/foldable_chair/mesh/foldable_chair.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1247,7 +1247,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1267,7 +1267,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1284,7 +1284,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1304,7 +1304,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1321,7 +1321,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1341,7 +1341,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1358,7 +1358,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1378,7 +1378,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1405,7 +1405,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1431,7 +1431,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1535,7 +1535,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1561,7 +1561,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1591,7 +1591,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1617,7 +1617,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1661,7 +1661,7 @@
           <geometry>
             <mesh>
               <scale>0.2 0.3 0.3</scale>
-              <uri>/home/yy/.gazebo/models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
+              <uri>file://../../models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1702,7 +1702,7 @@
           <geometry>
             <mesh>
               <scale>0.2 0.3 0.3</scale>
-              <uri>/home/yy/.gazebo/models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
+              <uri>file://../../models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1743,7 +1743,7 @@
           <geometry>
             <mesh>
               <scale>0.2 0.3 0.3</scale>
-              <uri>/home/yy/.gazebo/models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
+              <uri>file://../../models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3383,7 +3383,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3409,7 +3409,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3434,7 +3434,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3466,7 +3466,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3485,7 +3485,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3517,7 +3517,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3536,7 +3536,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3568,7 +3568,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3587,7 +3587,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3619,7 +3619,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3638,7 +3638,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3671,7 +3671,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3702,7 +3702,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3728,7 +3728,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3758,7 +3758,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3784,7 +3784,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3814,7 +3814,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3840,7 +3840,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3870,7 +3870,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3896,7 +3896,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3926,7 +3926,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3952,7 +3952,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3970,7 +3970,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3997,7 +3997,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -4016,7 +4016,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4043,7 +4043,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -4062,7 +4062,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4089,7 +4089,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -4108,7 +4108,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4135,7 +4135,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7946,7 +7946,7 @@
           <geometry>
             <mesh>
               <scale>0.15 0.1 0.1</scale>
-              <uri>/home/yy/.gazebo/models/foldable_chair/mesh/foldable_chair.dae</uri>
+              <uri>file://../../models/foldable_chair/mesh/foldable_chair.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9302,7 +9302,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9329,7 +9329,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9348,7 +9348,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9375,7 +9375,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9394,7 +9394,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9421,7 +9421,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9440,7 +9440,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9467,7 +9467,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9486,7 +9486,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9513,7 +9513,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9532,7 +9532,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9559,7 +9559,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9578,7 +9578,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9605,7 +9605,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9624,7 +9624,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9651,7 +9651,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9670,7 +9670,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9697,7 +9697,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9716,7 +9716,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9743,7 +9743,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9762,7 +9762,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -9794,7 +9794,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9813,7 +9813,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -9845,7 +9845,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9864,7 +9864,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9897,7 +9897,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9916,7 +9916,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9949,7 +9949,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9968,7 +9968,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -10001,7 +10001,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>

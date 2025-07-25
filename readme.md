@@ -24,7 +24,7 @@ source install/setup.bash
 
 地图保存
 控制小车终端按X退出，ros2 run nav2_map_server map_saver_cli -f map
-
+ros2 run nav2_map_server map_saver_cli -f ~/factory_ws/src/wpr_simulation2/maps/map
 将生成在主目录的两个map文件移动到/src/wpr_simulation2/maps/
 
 2.导航
