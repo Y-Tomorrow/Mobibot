@@ -9,12 +9,13 @@ source install/setup.bash
 
 地图在src/wpr_simulation2/worlds/factory.world
 
+factory1.world里的路径改一下，可以搜索‘/home/yy/factory_ws/src/models’，修改这些路径
+
 编辑查看地图 
 
-    gazebo factory.world
+    gazebo factory1.world
 
 在insert中添加模型
-
 
 1.仿真建图（会加载比较久）
 

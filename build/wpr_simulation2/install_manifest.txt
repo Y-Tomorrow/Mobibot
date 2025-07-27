@@ -88,6 +88,7 @@
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+/home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/factory1.world
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/MobiBot.model
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
 /home/yy/factory_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model

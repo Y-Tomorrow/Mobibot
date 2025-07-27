@@ -229,7 +229,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>model://pallet_box_mobile/meshes/boxes.dae</uri>
+              <uri>file://../../models/pallet_box_mobile/meshes/boxes.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -385,7 +385,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>model://pallet_box_mobile/meshes/boxes.dae</uri>
+              <uri>file://../../models/pallet_box_mobile/meshes/boxes.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -541,7 +541,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>model://pallet_box_mobile/meshes/boxes.dae</uri>
+              <uri>file://../../models/pallet_box_mobile/meshes/boxes.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -697,7 +697,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>model://pallet_box_mobile/meshes/boxes.dae</uri>
+              <uri>file://../../models/pallet_box_mobile/meshes/boxes.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -853,7 +853,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>model://pallet_box_mobile/meshes/boxes.dae</uri>
+              <uri>file://../../models/pallet_box_mobile/meshes/boxes.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -940,7 +940,7 @@
           <pose>0 -0.06858 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://hinged_door/meshes/frame.dae</uri>
+              <uri>file://../../models/hinged_door/meshes/frame.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -999,7 +999,7 @@
           <pose>0 -0.06858 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://hinged_door/meshes/door.dae</uri>
+              <uri>file://../../models/hinged_door/meshes/door.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1013,7 +1013,7 @@
           <pose>0.015 -0.015 0 -1.57 0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1034,7 +1034,7 @@
           <pose>0.015 -0.015 0 -1.57 0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1042,7 +1042,7 @@
           <pose>0.015 -0.055 0 1.57 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1063,7 +1063,7 @@
           <pose>0.015 -0.055 0 1.57 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1169,7 +1169,7 @@
           <geometry>
             <mesh>
               <scale>0.15 0.1 0.1</scale>
-              <uri>/home/yy/.gazebo/models/foldable_chair/mesh/foldable_chair.dae</uri>
+              <uri>file://../../models/foldable_chair/mesh/foldable_chair.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1208,7 +1208,7 @@
           <geometry>
             <mesh>
               <scale>0.15 0.1 0.1</scale>
-              <uri>/home/yy/.gazebo/models/foldable_chair/mesh/foldable_chair.dae</uri>
+              <uri>file://../../models/foldable_chair/mesh/foldable_chair.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1247,7 +1247,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1267,7 +1267,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1284,7 +1284,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1304,7 +1304,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1321,7 +1321,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1341,7 +1341,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1358,7 +1358,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1378,7 +1378,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/electrical box test/meshes/Electrical Box.dae</uri>
+              <uri>file://../../models/electrical box test/meshes/Electrical Box.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1405,7 +1405,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1431,7 +1431,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1451,14 +1451,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://WoodenChair/meshes/WoodenChair.obj</uri>
+              <uri>file://../../models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://WoodenChair/meshes/WoodenChair_Col.obj</uri>
+              <uri>file://../../models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1488,14 +1488,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://WoodenChair/meshes/WoodenChair.obj</uri>
+              <uri>file://../../models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://WoodenChair/meshes/WoodenChair_Col.obj</uri>
+              <uri>file://../../models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1535,7 +1535,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1561,7 +1561,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1591,7 +1591,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1617,7 +1617,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1661,7 +1661,7 @@
           <geometry>
             <mesh>
               <scale>0.2 0.3 0.3</scale>
-              <uri>/home/yy/.gazebo/models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
+              <uri>file://../../models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1702,7 +1702,7 @@
           <geometry>
             <mesh>
               <scale>0.2 0.3 0.3</scale>
-              <uri>/home/yy/.gazebo/models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
+              <uri>file://../../models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1743,7 +1743,7 @@
           <geometry>
             <mesh>
               <scale>0.2 0.3 0.3</scale>
-              <uri>/home/yy/.gazebo/models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
+              <uri>file://../../models/Shelf with ARUco boxes/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1759,7 +1759,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://CoffeeTable/meshes/CoffeeTable.obj</uri>
+              <uri>file://../../models/CoffeeTable/meshes/CoffeeTable.obj</uri>
               <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
@@ -1767,7 +1767,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://CoffeeTable/meshes/CoffeeTable.obj</uri>
+              <uri>file://../../models/CoffeeTable/meshes/CoffeeTable.obj</uri>
               <scale>0.05 0.05 0.05</scale>
             </mesh>
           </geometry>
@@ -3383,7 +3383,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3409,7 +3409,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3434,7 +3434,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3466,7 +3466,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3485,7 +3485,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3517,7 +3517,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3536,7 +3536,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3568,7 +3568,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3587,7 +3587,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3619,7 +3619,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3638,7 +3638,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3671,7 +3671,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3702,7 +3702,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3728,7 +3728,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3758,7 +3758,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3784,7 +3784,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3814,7 +3814,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3840,7 +3840,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3870,7 +3870,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3896,7 +3896,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3926,7 +3926,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3952,7 +3952,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_PalletJackB_01 (1)/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -3970,7 +3970,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3997,7 +3997,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -4016,7 +4016,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4043,7 +4043,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -4062,7 +4062,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4089,7 +4089,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -4108,7 +4108,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4135,7 +4135,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -4188,7 +4188,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4209,7 +4209,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4258,7 +4258,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4279,7 +4279,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4324,8 +4324,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4386,8 +4386,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4448,8 +4448,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4510,8 +4510,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4572,8 +4572,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4634,8 +4634,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4696,8 +4696,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4758,8 +4758,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4820,8 +4820,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4882,8 +4882,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -4944,8 +4944,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5006,8 +5006,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5068,8 +5068,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5128,8 +5128,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://grey_wall/materials/scripts</uri>
-              <uri>model://grey_wall/materials/textures</uri>
+              <uri>file://../../models/grey_wall/materials/scripts</uri>
+              <uri>file://../../models/grey_wall/materials/textures</uri>
               <name>vrc/grey_wall</name>
             </script>
           </material>
@@ -5157,7 +5157,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://coke_can_rubber/meshes/coke_rubber.obj</uri>
+              <uri>file://../../models/coke_can_rubber/meshes/coke_rubber.obj</uri>
               <scale>2 2 2</scale>
             </mesh>
           </geometry>
@@ -5178,7 +5178,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://coke_can_rubber/meshes/coke_rubber.obj</uri>
+              <uri>file://../../models/coke_can_rubber/meshes/coke_rubber.obj</uri>
               <scale>2 2 2</scale>
             </mesh>
           </geometry>
@@ -5227,8 +5227,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5289,8 +5289,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5351,8 +5351,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5413,8 +5413,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5475,8 +5475,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5537,8 +5537,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5599,8 +5599,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5661,8 +5661,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5723,8 +5723,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5785,8 +5785,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5847,8 +5847,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -5880,7 +5880,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5901,7 +5901,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5929,7 +5929,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5950,7 +5950,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -5978,7 +5978,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5999,7 +5999,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6027,7 +6027,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6048,7 +6048,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6076,7 +6076,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6097,7 +6097,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6125,7 +6125,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6146,7 +6146,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6174,7 +6174,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6195,7 +6195,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6223,7 +6223,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6244,7 +6244,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6272,7 +6272,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6293,7 +6293,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6321,7 +6321,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6342,7 +6342,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6371,14 +6371,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6408,14 +6408,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6445,14 +6445,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6482,14 +6482,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
+              <uri>file://../../models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6518,7 +6518,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6538,7 +6538,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6554,7 +6554,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6574,7 +6574,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6590,7 +6590,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6610,7 +6610,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6626,7 +6626,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6646,7 +6646,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6662,7 +6662,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6682,7 +6682,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6698,7 +6698,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6718,7 +6718,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6734,7 +6734,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6754,7 +6754,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6770,7 +6770,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6790,7 +6790,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6806,7 +6806,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6826,7 +6826,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6842,7 +6842,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6862,7 +6862,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6878,7 +6878,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6898,7 +6898,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6914,7 +6914,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6934,7 +6934,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -6950,7 +6950,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6970,7 +6970,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://Extinguisher/meshes/Extinguisher.dae</uri>
+              <uri>file://../../models/Extinguisher/meshes/Extinguisher.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -7015,8 +7015,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -7112,7 +7112,7 @@
           <pose>0 -0.06858 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://hinged_door/meshes/frame.dae</uri>
+              <uri>file://../../models/hinged_door/meshes/frame.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -7171,7 +7171,7 @@
           <pose>0 -0.06858 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://hinged_door/meshes/door.dae</uri>
+              <uri>file://../../models/hinged_door/meshes/door.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -7185,7 +7185,7 @@
           <pose>0.015 -0.015 0 -1.57 0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7206,7 +7206,7 @@
           <pose>0.015 -0.015 0 -1.57 0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -7214,7 +7214,7 @@
           <pose>0.015 -0.055 0 1.57 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7235,7 +7235,7 @@
           <pose>0.015 -0.055 0 1.57 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://door_handle/meshes/handle.dae</uri>
+              <uri>file://../../models/door_handle/meshes/handle.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -7369,8 +7369,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -7431,8 +7431,8 @@
           </geometry>
           <material>
             <script>
-              <uri>model://cutout_wall/materials/scripts</uri>
-              <uri>model://cutout_wall/materials/textures</uri>
+              <uri>file://../../models/cutout_wall/materials/scripts</uri>
+              <uri>file://../../models/cutout_wall/materials/textures</uri>
               <name>drc_practice/cutout_wall</name>
             </script>
           </material>
@@ -7465,14 +7465,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7502,14 +7502,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7539,14 +7539,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7576,14 +7576,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7613,14 +7613,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7650,14 +7650,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7687,14 +7687,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
+              <uri>file://../../models/SmallCubicle/meshes/SmallCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7724,14 +7724,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairBlue/meshes/OfficeChairBlue.obj</uri>
+              <uri>file://../../models/OfficeChairBlue/meshes/OfficeChairBlue.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairBlue/meshes/OfficeChairBlue_Col.obj</uri>
+              <uri>file://../../models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7761,14 +7761,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairBlue/meshes/OfficeChairBlue.obj</uri>
+              <uri>file://../../models/OfficeChairBlue/meshes/OfficeChairBlue.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairBlue/meshes/OfficeChairBlue_Col.obj</uri>
+              <uri>file://../../models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7798,14 +7798,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairBlue/meshes/OfficeChairBlue.obj</uri>
+              <uri>file://../../models/OfficeChairBlue/meshes/OfficeChairBlue.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairBlue/meshes/OfficeChairBlue_Col.obj</uri>
+              <uri>file://../../models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7835,14 +7835,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairGrey/meshes/OfficeChairGrey.obj</uri>
+              <uri>file://../../models/OfficeChairGrey/meshes/OfficeChairGrey.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairGrey/meshes/OfficeChairGrey_Col.obj</uri>
+              <uri>file://../../models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7872,14 +7872,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairGrey/meshes/OfficeChairGrey.obj</uri>
+              <uri>file://../../models/OfficeChairGrey/meshes/OfficeChairGrey.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairGrey/meshes/OfficeChairGrey_Col.obj</uri>
+              <uri>file://../../models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7909,14 +7909,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairGrey/meshes/OfficeChairGrey.obj</uri>
+              <uri>file://../../models/OfficeChairGrey/meshes/OfficeChairGrey.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://OfficeChairGrey/meshes/OfficeChairGrey_Col.obj</uri>
+              <uri>file://../../models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7946,7 +7946,7 @@
           <geometry>
             <mesh>
               <scale>0.15 0.1 0.1</scale>
-              <uri>/home/yy/.gazebo/models/foldable_chair/mesh/foldable_chair.dae</uri>
+              <uri>file://../../models/foldable_chair/mesh/foldable_chair.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8017,7 +8017,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8038,7 +8038,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8087,7 +8087,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8108,7 +8108,7 @@
           <pose>0 0 -0.02 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://person_walking/meshes/walking.dae</uri>
+              <uri>file://../../models/person_walking/meshes/walking.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8125,14 +8125,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8162,14 +8162,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8199,14 +8199,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8236,14 +8236,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8273,14 +8273,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8310,14 +8310,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8347,14 +8347,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
+              <uri>file://../../models/TrolleyBox2/meshes/TrolleyBox2_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8382,7 +8382,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>/home/yy/factory_ws/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8408,7 +8408,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>/home/yy/factory_ws/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -8444,7 +8444,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8464,7 +8464,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8496,7 +8496,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8516,7 +8516,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8548,7 +8548,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8568,7 +8568,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8600,7 +8600,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8620,7 +8620,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8652,7 +8652,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8672,7 +8672,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8704,7 +8704,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8724,7 +8724,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8756,7 +8756,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -8776,7 +8776,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models1/Black and Decker Cordless Drill/meshes/drill.dae</uri>
+              <uri>/home/yy/factory_ws/models/Black and Decker Cordless Drill/meshes/drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8804,7 +8804,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.stl</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8828,7 +8828,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.dae</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8856,7 +8856,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.stl</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8880,7 +8880,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.dae</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8908,7 +8908,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.stl</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8932,7 +8932,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.dae</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -8960,7 +8960,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.stl</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8984,7 +8984,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.dae</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9012,7 +9012,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.stl</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -9036,7 +9036,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.dae</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9064,7 +9064,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.stl</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -9088,7 +9088,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.dae</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9116,7 +9116,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.stl</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -9140,7 +9140,7 @@
           <pose>0 0 -0.09 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://cordless_drill/meshes/cordless_drill.dae</uri>
+              <uri>file://../../models/cordless_drill/meshes/cordless_drill.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9156,7 +9156,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -9177,7 +9177,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9205,7 +9205,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -9226,7 +9226,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9254,7 +9254,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -9275,7 +9275,7 @@
           <geometry>
             <mesh>
               <scale>10 10 10</scale>
-              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+              <uri>file://../../models/construction_cone/meshes/construction_cone.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -9302,7 +9302,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9329,7 +9329,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9348,7 +9348,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9375,7 +9375,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9394,7 +9394,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9421,7 +9421,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9440,7 +9440,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9467,7 +9467,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9486,7 +9486,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9513,7 +9513,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9532,7 +9532,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9559,7 +9559,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9578,7 +9578,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9605,7 +9605,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9624,7 +9624,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9651,7 +9651,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9670,7 +9670,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9697,7 +9697,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9716,7 +9716,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9743,7 +9743,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9762,7 +9762,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -9794,7 +9794,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9813,7 +9813,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
             </mesh>
           </geometry>
           <surface>
@@ -9845,7 +9845,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9864,7 +9864,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9897,7 +9897,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9916,7 +9916,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -9949,7 +9949,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -9968,7 +9968,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -10001,7 +10001,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/yy/.gazebo/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file://../../models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -10022,14 +10022,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://BigCubicle/meshes/BigCubicle.obj</uri>
+              <uri>file://../../models/BigCubicle/meshes/BigCubicle.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://BigCubicle/meshes/BigCubicle_Col.obj</uri>
+              <uri>file://../../models/BigCubicle/meshes/BigCubicle_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>

@@ -35,7 +35,8 @@ def generate_launch_description():
     world = os.path.join(
         get_package_share_directory('wpr_simulation2'),
         'worlds',
-        'factory.world'
+        'factory1.world'
+        # 'factory.world'
         # 'robocup_home.world'
     )
 
@@ -64,12 +65,6 @@ def generate_launch_description():
     }.items()
     )
 
-    # 生成场景中的障碍物
-    spawn_objects = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(launch_file_dir, 'spawn_objects.launch.py')
-        )
-    )
 
     ld = LaunchDescription()
 
@@ -77,6 +72,5 @@ def generate_launch_description():
     ld.add_action(gzserver_cmd)
     ld.add_action(gzclient_cmd)
     ld.add_action(spawn_robot_cmd)
-    ld.add_action(spawn_objects)
     
     return ld
